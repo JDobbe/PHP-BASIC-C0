@@ -3,8 +3,16 @@
 <body>
 
 <?php
-$score = 0;
-echo $score;
+$voornaam = Jeroen;
+echo gettype($voornaam);
+$leeftijd = 21;
+echo gettype($leeftijd);
+$tijd = 11.06;
+echo gettype($tijd);
+$test = true;
+echo gettype($test);
+$test2 = null;
+echo gettype($test2);
 ?>
 
 </body>
