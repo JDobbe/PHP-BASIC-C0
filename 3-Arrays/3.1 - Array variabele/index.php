@@ -3,8 +3,10 @@
 <body>
 
 <?php
-$myMovies = ["Frozen", "Frozen 2", "Olaf's frozen adventure"];
-echo $myMovies;
+$abcGetallen = [['a', 'b', 'c', 'd'], ['24', '56', '78', '90']];
+echo $abcGetallen[0][0];
+echo $abcGetallen[1][1];
+
 ?>
 
 </body>
