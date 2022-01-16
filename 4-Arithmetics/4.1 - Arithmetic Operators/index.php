@@ -14,6 +14,7 @@ $getal1 = 3;
 $getal2= 5;
 
 echo "<br>".($getal1+$getal2);
+echo "<br>".($getal2+$getal1);
 
 ?>
 </ul>
