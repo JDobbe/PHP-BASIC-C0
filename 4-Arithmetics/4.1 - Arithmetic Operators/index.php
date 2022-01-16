@@ -13,10 +13,7 @@
 $getal1 = 3;
 $getal2= 5;
 
-echo <li>$getal1<li> + <li>$getal2</li>;
-echo <li>$getal1</li> * <li>$getal2<li>;
-echo $getal1 - $getal2;
-echo $getal2 / $getal1;
+echo "<br>".($getal1+$getal2);
 
 ?>
 </ul>
