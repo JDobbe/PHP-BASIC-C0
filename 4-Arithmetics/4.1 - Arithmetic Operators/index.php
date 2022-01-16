@@ -7,18 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    
+<ul>  
 <?php
 
 $getal1 = 3;
 $getal2= 5;
 
-echo $getal1 + $getal2;
-echo  $getal1 * $getal2;
-echo  $getal1 - $getal2;
-echo  $getal2 / $getal1;
+echo <li>$getal1<li> + <li>$getal2</li>;
+echo <li>$getal1</li> * <li>$getal2<li>;
+echo $getal1 - $getal2;
+echo $getal2 / $getal1;
 
 ?>
-
+</ul>
 </body>
 </html>
