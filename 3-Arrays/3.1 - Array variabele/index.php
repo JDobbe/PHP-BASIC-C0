@@ -9,9 +9,15 @@
 <body>
   
 <?php
-$getallen = ['676', '5345', '78657', '3', '46', '21', '47'];
-asort($getallen);
-print_r( $getallen );
+
+$getal1 = 3;
+$getal2= 5;
+
+echo $getal1 + $getal2;
+echo $getal1 * $getal2;
+echo $getal1 - $getal2;
+echo $getal2 / $getal1;
+
 ?>
 
 </body>
