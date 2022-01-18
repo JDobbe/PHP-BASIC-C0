@@ -7,13 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-  
+   
 <?php
 
-$getal1 += 10;
-
-echo $getal1;
-
+$getal1 = 10;
+echo "<br>".++$getal1;
+echo "<br>".--$getal1;
 
 ?>
 
